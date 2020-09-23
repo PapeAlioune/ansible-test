@@ -1,0 +1,27 @@
+127.0.0.1	localhost
+127.0.1.1	workstation
+
+#Separate Mysql hosts with Php FPM hosts
+
+[mysql_hosts]
+192.168.1.103   mysqlhost
+
+#127.0.0.0	mysqlhost
+#127.0.0.0	mysqlhost
+#127.0.0.0	mysqlhost
+
+
+[php_hosts]
+192.168.1.101   phphost
+
+#127.0.0.0	phphost
+#127.0.0.0	phphost
+#127.0.0.0	phphost
+
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
